@@ -1,10 +1,10 @@
 {
   "current_phase": 1,
   "current_month": 1,
-  "current_week": 2,
-  "current_session": 6,
-  "last_session_date": "2026-05-09",
-  "total_sessions": 6,
+  "current_week": 3,
+  "current_session": 7,
+  "last_session_date": "2026-05-11",
+  "total_sessions": 7,
   "phase1_months_completed": 0,
   "phase2_papers_completed": 0,
   "session_history": [
@@ -13,7 +13,8 @@
     {"session": 3, "date": "2026-05-02", "topic": "SECTION 1(a): Full Summary", "score": "9.5/10 ✅"},
     {"session": 4, "date": "2026-05-05", "topic": "SECTION 1(a): Marking Scheme + Time Strategy", "score": "✅"},
     {"session": 5, "date": "2026-05-06", "topic": "RC Load Transfer + Stability + Carbon Calc", "score": "✅"},
-    {"session": 6, "date": "2026-05-09", "topic": "SECTION 1(a): Self-mark (9.6/10) + Block 1-5 Full Submit", "score": "9.6/10 ✅"}
+    {"session": 6, "date": "2026-05-09", "topic": "SECTION 1(a): Self-mark + Full Submit", "score": "9.6/10 ✅"},
+    {"session": 7, "date": "2026-05-11", "topic": "SECTION 1(b): Client Letter + Wind Load", "score": "pending"}
   ],
-  "notes": "Phase 1 = 5 months (Month 1-5), Phase 2 = 6 months (Month 6-11), Phase 3 = 4 months (Month 12-15). Week 2 COMPLETE! Section 1(a) DISTINCTION LEVEL 9.6/10 locked. Next: Week 3 (Session 7-9) — Section 1(b) Client Letter + Wind Load"
+  "notes": "Phase 1 = 5 months (Month 1-5), Phase 2 = 6 months (Month 6-11), Phase 3 = 4 months (Month 12-15). Week 3 IN PROGRESS. Next: Session 8 (Thu May 15) — Wind Load + Section 2(c) intro"
 }
