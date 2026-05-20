@@ -76,16 +76,103 @@
 
 ---
 
-## 🎯 今日下一步
+## p.56 GENERAL LAYOUT（樓板、梁、柱標準安排）
 
-| Option | 內容 |
-|--------|------|
-| **A）Block 1** | Client Letter + Eurocode + Sustainability |
-| **B）Block 2** | Wind Load Calculation |
-| **C）Lock 筆記** | 先保存曬 p.54-58 再繼續 |
+### Floor Slab
 
-你話事！💪
+| Type | Thickness | Span | Supported By |
+|------|-----------|------|-------------|
+| Two-way slab | 325 mm | max. 8 m | primary beam |
+| One-way slab | 150 mm composite slab | — | secondary beam |
+| Flat slab | 350 mm | max. 8 m | column directly |
+| Precast plank | 150mm hollow-core + 75mm topping | max. 10 m | secondary beam |
+
+### Beams
+
+| Type | Location | Max Span | Supported By |
+|------|----------|----------|-------------|
+| Secondary beam | 2nd to 1st | 8 m | column |
+| Primary beam | 1st to col/wall | — | column + core wall |
+| Cantilever beam (1) | Balcony | 4 m | one-way slab |
+| Cantilever beam (2) | Core area 2/F & 5/F | 3 m | — |
+
+### Columns
+
+| Type | Location | Purpose |
+|------|----------|---------|
+| Inclined Column | South elevation | Match façade |
+| Hanger Column | Above atrium | Provide column-free space |
+
+### Special Feature — Transfer
+
+| Feature | Span | Purpose |
+|---------|------|---------|
+| Roof Truss | 24 m | Support hanger column, atrium column-free |
+| Vierendeel | L3–L4 | Steel frame with Vierendeel action supporting cantilever columns |
 
 ---
 
-*p.54-58 — Scheme 2 Composite Steel + General Layout + Basement & Foundations*
+## p.57 BASEMENT AND FOUNDATIONS
+
+### Foundation Types
+
+| Type | Description |
+|------|-------------|
+| On-grade Slab | L-1 層 200mm 厚 on-grade slab 直接放在砂礫層上 |
+| Founded on rock | pile cap + bored pile 傳至岩層 |
+| Friction Pile | CFA pile 靠土壤摩擦力 |
+| Footing – 1 | pad footing 傳至土壤 |
+| Footing – 2 | L-1 層樓板兼做 raft foundation |
+
+### Others
+
+| Feature | Description |
+|---------|-------------|
+| Screen Wall | 800mm 厚 RC screen wall 抵抗土壤側壓（atrium 下）|
+| Bracing | 四角 vertical steel cross bracing + roof level plan steel cross bracing |
+
+---
+
+## p.58 Example 2 (2019 Jul Q4) — 真題例子
+
+### Scheme Option 1
+
+| Level | Description |
+|-------|-------------|
+| Penthouse (L11/L12) | 150mm hollow-core + 75mm topping，由 250×450mm RC beam + 250mm blade column 支承 |
+| L3–L11 Typical Guestrooms | 9m × 7m grid，一邊 blade column 250mm |
+| L2 Podium Roof & Transfer Level | 9m × 9m grid，需 transfer structure 支承 guestroom column |
+| L1 Ground Floor | 9m × 9m grid |
+| L-1 Basement Car Parking | raft slab 兼 foundation |
+
+---
+
+## 🎯 下次使用指引
+
+下次畫 Scheme 2：
+1. 用 p.54 bullet points 寫 Scheme Description
+2. 加 p.56 的 layout 細節（floor slab type, beam arrangement, column types）
+3. 加 p.57 的 foundation 描述
+4. Sustainability 直接用 bullet points
+
+---
+
+*p.54-58 — Scheme 2 Composite Steel + General Layout + Basement & Foundations + Example 2*
+
+### English（考官版 — 直接抄落 A4 筆記）
+
+> Cantilever beams CSB are provided at 1/F, 2/F and 3/F to support the beam at their floor.
+> Steel truss is provided at _/F to transfer columns above / at R/F to support the _/F loading.
+> Hanger column is provided to support the beam at _/F.
+> No transfer system is required.
+> Braced core has been used to provide the lateral stability of building.
+>
+> **Sustainability Considerations**
+>
+> - Steel-concrete composite floor system maximizes span-to-depth ratio, reducing material consumption.
+> - Hierarchical beam arrangement optimizes load paths and minimizes steel tonnage.
+> - Braced core system eliminates excessive lateral support structures, reducing embodied carbon.
+> - Minimal transfer structures demonstrate resource efficiency.
+> - Modular steel framework facilitates future adaptability and deconstruction for material reuse.
+> - Prefabricated steel components reduce on-site construction time and waste.
+> - Efficient load transfer system minimizes environmental impact throughout building lifecycle.
