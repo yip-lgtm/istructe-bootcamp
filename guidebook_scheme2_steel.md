@@ -1,178 +1,112 @@
-# GUIDEBOOK p.54–58 — Scheme 2 Composite Steel + General Layout + Basement & Foundations + Example 2
-## 中英詳解
-**Date:** 2026-05-20
+# GUIDEBOOK p.59–70 — Function Framing (Steel) + Load Transfer & Stability
+## B. Function Framing (Steel) + C. Load Transfer and Stability (Steel Scheme)
+**Date:** 2026-06-01
 
 ---
 
-## p.54 6' SCHEME 2 — COMPOSITE STEEL（完整 Scheme 2 模板）
+## B. Function Framing (Steel) — 功能框架（鋼結構）
 
 ### 中文詳解
 
-**6' SCHEME 2 — 複合鋼結構（COMPOSITE STEEL）**
+Function Framing 係考試最重要嘅 Section 1(a) 部分。目的係用簡單圖則（Plan + Section）向 examiner 展示你嘅 scheme 點樣滿足 client requirements（column-free courtroom、atrium、pods、movement joint 等）。
 
-**Scheme 2 描述：**
-採用鋼—混凝土複合樓板系統（Steel Composite Beam-Slab System），配以吊柱 / 柱 / 斜撐柱 / 核心牆，並在指定樓層設轉換桁架（Transfer Truss）。
+### 考試重點（直接抄落 A4）
 
-- 鋼樓板 + 現澆混凝土面層 + 剪力釘（shear stud），樓板單向跨在鋼次梁 SB2 上。
-- SB2 設計為銷接（pin joint）支承在主梁 SB1 上。
-- SB1 由柱 SC1 或牆以剛接（fixed）支承。
-- 在 1/F、2/F 及 3/F 設懸臂梁（Cantilever Beams CSB）支承該層樓板。
-- 在 _/F 設鋼桁架（Steel Truss）轉移上層柱荷載，或在 R/F 支承屋面荷載。
-- 設吊柱（Hanger Column）支承 _/F 樓板。
-- 無需轉換系統（No transfer system is required）。
-- 採用斜撐核心（Braced core）提供整體側向穩定。
+| 元素 | 要求 |
+|------|------|
+| Grid + Dimension | 用 grid + dimension（e.g. 9m × 9m, 7.5m）清楚標示 |
+| Braced Core | 用 X-bracing 或 Chevron 清楚顯示（紅色或藍色 highlight）|
+| Transfer Truss / Roof Truss / Hanger Column | 一定要畫 Section（Section B-B），用黃色 highlight |
+| Vierendeel | 適合 atrium 邊緣，容許大開口又傳遞荷載 |
+| Cantilever / Hanger | 標明 span 同 direction |
+| Axis of Symmetry | 畫紅線，解釋 stability system 點樣分開 |
 
-**Sustainability Considerations（可持續設計 — 考官最愛例子）：**
+### English（考官版）
 
-- 鋼—混凝土複合樓板系統最大化跨深比，減少材料用量。
-- 主次梁分層排列（SB2 → SB1）優化荷載路徑，減少鋼材總重。
-- 斜撐核心系統消除多餘側向支撐結構，大幅降低 embodied carbon。
-- 僅在特定樓層設轉換結構，展示資源效率。
-- 模組化鋼框架方便未來改建及拆除，符合 material reuse。
-- 預製鋼構件減少現場施工時間及廢料。
-- 高效荷載傳遞系統在整個建築壽命中減低環境影響。
-
----
-
-### English（考官版 — 直接抄落 A4 筆記）
-
-> **6' SCHEME 2 — COMPOSITE STEEL**
+> Function Framing shows how the proposed steel composite scheme satisfies the client's key requirements (column-free courtrooms, 2-storey north atrium, east/west pods).
 >
-> **Scheme 2**
-> Steel composite beam-slab system with hanger / columns / braced columns / and core wall and transfer trusses at _/F.
->
-> Steel decking with in-situ concrete topping and shear studs as floors spanning one-way to steel secondary beam SB2.
-> SB2 is designed as pin joint and supported by main beam SB1.
-> SB1 is supported by columns SC1 / walls in moment (fixed) connection.
-> Cantilever beams CSB are provided at 1/F, 2/F and 3/F to support the beam at their floor.
-> Steel truss is provided at _/F to transfer columns above / at R/F to support the _/F loading.
-> Hanger column is provided to support the beam at _/F.
-> No transfer system is required.
-> Braced core has been used to provide the lateral stability of building.
->
-> **Sustainability Considerations**
->
-> - Steel-concrete composite floor system maximizes span-to-depth ratio, reducing material consumption.
-> - Hierarchical beam arrangement (SB2 to SB1) optimizes load paths and minimizes steel tonnage.
-> - Braced core system eliminates excessive lateral support structures, reducing embodied carbon.
-> - Minimal transfer structures (only at specific levels) demonstrate resource efficiency.
-> - Modular steel framework facilitates future adaptability and deconstruction for material reuse.
-> - Prefabricated steel components reduce on-site construction time and waste.
-> - Efficient load transfer system minimizes environmental impact throughout building lifecycle.
+> Draw clear grid lines with dimensions.
+> Show braced core with X-bracing or chevron bracing in plan and section.
+> Provide Section B-B to demonstrate transfer truss / hanger columns / Vierendeel action above atrium.
+> Highlight axis of symmetry and how lateral stability is maintained above/below L2/L3.
+> Use colour coding (blue for steel, red for bracing, yellow for transfer elements) so the marker immediately sees the critical load path.
+
+### Law Court 應用建議
+
+| 位置 | 解決方案 |
+|------|----------|
+| Atrium（15m × 10m）| Roof Truss + Hanger Column 解決 column-free |
+| East/West pods | Cantilever Beams 或 Vierendeel |
+| Movement joint（>50m）| Double column + M.J. 分開兩個獨立結構 |
 
 ---
 
-## 📋 Scheme 2 vs Scheme 1 比較
+## C. Load Transfer and Stability (Steel Scheme)
 
-| Feature | Scheme 1 (RC) | Scheme 2 (Steel) |
-|---------|---------------|------------------|
-| Floor System | PT flat slab | Steel composite beam-slab |
-| Secondary Beam | RC beam | Steel SB2 (pin joint) |
-| Main Beam | RC beam | Steel SB1 (fixed) |
-| Lateral System | RC core wall | Braced core |
-| Transfer | RC transfer slab | Steel truss |
-| Sustainability | Thermal mass (operational carbon -15%) | Prefabrication + high recycled steel |
-| Construction Speed | Standard | Fast (dry assembly) |
+### 1. Vertical Load（垂直荷載）
 
----
+**中文：**
+Gravity load 由 Composite Slab → Secondary Beam / Main Beam → Steel Column / Hanger Column → Transfer Beam / Truss → Foundation。
 
-## p.56 GENERAL LAYOUT（樓板、梁、柱標準安排）
+**Load Path Diagram（簡單 flow chart）：**
+```
+Gravity Load → Composite Slab (M) → Steel Beam (M) → Hanger Column (A) / Steel Column (A) → Transfer Beam / Truss (A/M) → Foundation
+```
 
-### Floor Slab
-
-| Type | Thickness | Span | Supported By |
-|------|-----------|------|-------------|
-| Two-way slab | 325 mm | max. 8 m | primary beam |
-| One-way slab | 150 mm composite slab | — | secondary beam |
-| Flat slab | 350 mm | max. 8 m | column directly |
-| Precast plank | 150mm hollow-core + 75mm topping | max. 10 m | secondary beam |
-
-### Beams
-
-| Type | Location | Max Span | Supported By |
-|------|----------|----------|-------------|
-| Secondary beam | 2nd to 1st | 8 m | column |
-| Primary beam | 1st to col/wall | — | column + core wall |
-| Cantilever beam (1) | Balcony | 4 m | one-way slab |
-| Cantilever beam (2) | Core area 2/F & 5/F | 3 m | — |
-
-### Columns
-
-| Type | Location | Purpose |
-|------|----------|---------|
-| Inclined Column | South elevation | Match façade |
-| Hanger Column | Above atrium | Provide column-free space |
-
-### Special Feature — Transfer
-
-| Feature | Span | Purpose |
-|---------|------|---------|
-| Roof Truss | 24 m | Support hanger column, atrium column-free |
-| Vierendeel | L3–L4 | Steel frame with Vierendeel action supporting cantilever columns |
+**English（考官版）：**
+> Vertical load is transferred from composite slab through secondary/main beams to steel columns and hanger columns, then through transfer trusses/beams to the foundation. Bending (M) and axial (A) forces must be clearly indicated.
 
 ---
 
-## p.57 BASEMENT AND FOUNDATIONS
+### 2. Lateral Load（側向荷載）
 
-### Foundation Types
+**中文：**
+Steel Scheme 推薦用 Braced Frame + Braced Core（最有效 + 最少材料）。
 
-| Type | Description |
-|------|-------------|
-| On-grade Slab | L-1 層 200mm 厚 on-grade slab 直接放在砂礫層上 |
-| Founded on rock | pile cap + bored pile 傳至岩層 |
-| Friction Pile | CFA pile 靠土壤摩擦力 |
-| Footing – 1 | pad footing 傳至土壤 |
-| Footing – 2 | L-1 層樓板兼做 raft foundation |
+```
+External cladding → Floor diaphragm → Braced bays → Foundation
+```
 
-### Others
+Core wall（如果有）用 shear + bending 傳遞。
 
-| Feature | Description |
-|---------|-------------|
-| Screen Wall | 800mm 厚 RC screen wall 抵抗土壤側壓（atrium 下）|
-| Bracing | 四角 vertical steel cross bracing + roof level plan steel cross bracing |
+Rigid frame 只適合小跨度，鋼結構少用（材料多 + connection 複雜）。
+
+**English（考官版）：**
+> Lateral stability is provided by the braced frame and braced core system. Lateral loads from external cladding are transferred via floor diaphragms to braced bays, then down to foundation through axial tension and compression in steel members. Reinforced concrete strip footings under braced bays resist overturning.
 
 ---
 
-## p.58 Example 2 (2019 Jul Q4) — 真題例子
+### 3. Special Cases
 
-### Scheme Option 1
+| 情況 | 解決方案 |
+|------|----------|
+| **Movement Joint** | Double column + M.J. 分開兩個獨立結構，各自有自己 bracing/core |
+| **Asymmetrical Core** | 會產生 torsion，要額外 bracing 平衡 |
+| **Hanger Truss Arrangement** | 清楚顯示 tension/compression 成員同 column-free zone |
 
-| Level | Description |
+---
+
+### Sustainability Discriminator（Distinction 加分）
+
+| Point | Description |
 |-------|-------------|
-| Penthouse (L11/L12) | 150mm hollow-core + 75mm topping，由 250×450mm RC beam + 250mm blade column 支承 |
-| L3–L11 Typical Guestrooms | 9m × 7m grid，一邊 blade column 250mm |
-| L2 Podium Roof & Transfer Level | 9m × 9m grid，需 transfer structure 支承 guestroom column |
-| L1 Ground Floor | 9m × 9m grid |
-| L-1 Basement Car Parking | raft slab 兼 foundation |
+| Braced steel + composite slab | 更好 span-to-depth ratio，減少材料用量同 embodied carbon |
+| Prefabricated steel + modular bracing | 方便 future adaptability 同 deconstruction（circular economy）|
+| Minimal transfer structures | 只在必要樓層設置，展示 resource efficiency |
 
 ---
 
-## 🎯 下次使用指引
+## 📋 Scheme 2 Steel 考試 checklist
 
-下次畫 Scheme 2：
-1. 用 p.54 bullet points 寫 Scheme Description
-2. 加 p.56 的 layout 細節（floor slab type, beam arrangement, column types）
-3. 加 p.57 的 foundation 描述
-4. Sustainability 直接用 bullet points
+| Item | Must Include |
+|------|--------------|
+| Function Framing Plan | GF + Typical Floor, grid with dimensions |
+| Section B-B | Transfer truss, hanger, Vierendeel |
+| Load Path Diagram | Vertical flow chart with M/A notation |
+| Lateral Stability | Braced Core + Braced Frame, floor diaphragm |
+| Sustainability | Span-to-depth, prefabrication, minimal transfer |
+| Colour Coding | Blue=steel, Red=bracing, Yellow=transfer |
 
 ---
 
-*p.54-58 — Scheme 2 Composite Steel + General Layout + Basement & Foundations + Example 2*
-
-### English（考官版 — 直接抄落 A4 筆記）
-
-> Cantilever beams CSB are provided at 1/F, 2/F and 3/F to support the beam at their floor.
-> Steel truss is provided at _/F to transfer columns above / at R/F to support the _/F loading.
-> Hanger column is provided to support the beam at _/F.
-> No transfer system is required.
-> Braced core has been used to provide the lateral stability of building.
->
-> **Sustainability Considerations**
->
-> - Steel-concrete composite floor system maximizes span-to-depth ratio, reducing material consumption.
-> - Hierarchical beam arrangement optimizes load paths and minimizes steel tonnage.
-> - Braced core system eliminates excessive lateral support structures, reducing embodied carbon.
-> - Minimal transfer structures demonstrate resource efficiency.
-> - Modular steel framework facilitates future adaptability and deconstruction for material reuse.
-> - Prefabricated steel components reduce on-site construction time and waste.
-> - Efficient load transfer system minimizes environmental impact throughout building lifecycle.
+*GUIDEBOOK p.59-70 — Function Framing + Load Transfer & Stability (Steel)*
