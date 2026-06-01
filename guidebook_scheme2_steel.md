@@ -96,16 +96,100 @@ Rigid frame 只適合小跨度，鋼結構少用（材料多 + connection 複雜
 
 ---
 
-## 📋 Scheme 2 Steel 考試 checklist
+## p.64 Hanger Trusses Arrangement（吊桁架安排）
+
+### 中文詳解
+
+呢兩張圖係解釋 Hanger Truss（吊桁架）同 Normal Truss（普通桁架）嘅分別，同埋點樣處理 Column Free Zone（無柱區）。
+
+### Hanger Trusses Arrangement（上圖）
+
+- Roof 層用 Transfer Truss（轉換桁架），同時承受 Tension（拉力）和 Compression（壓力）
+- 下面用 Hanger Column（吊柱）懸吊下層樓板，形成 Column Free Zone（例如 atrium 或大堂）
+- 荷載傳遞：上層柱荷載 → Transfer Truss → Hanger Column → 下層結構
+- 適合有大跨度無柱空間嘅情況（例如 Law Court 的 Atrium）
+
+### Normal Trusses Arrangement（下圖）
+
+- 普通桁架直接坐喺 Column 上面，冇 Hanger Column
+- 所有 Column 都係落地，冇 Column Free Zone
+- 比較簡單，但唔適合需要大無柱空間嘅項目
+
+### English（考官版）
+
+> **Hanger Trusses Arrangement**
+> Transfer trusses at roof level carry both tension and compression. Hanger columns are used to support floors below, creating column-free zones (e.g. atrium). Load is transferred from upper columns → transfer truss → hanger columns → structure below.
+>
+> **Normal Trusses Arrangement**
+> Trusses sit directly on columns. No hanger columns and no column-free zone. Simpler but less flexible for large open spaces.
+
+---
+
+## p.65 Load Path Diagram（2019 Jul Q4 Example）
+
+### 中文詳解
+
+呢個係 2019 Jul Q4 嘅經典 Load Path 例子，教你點樣用簡單 flow chart + Section 嚟表達 Vertical Load 傳遞。
+
+### Load Path（文字版）
+
+```
+Gravity Load
+↓
+Composite Slab（M = Bending）
+↓
+Steel Beam（M = Bending）
+↓（分成兩條路）
+→ Hanger Column（A = Axial） → Roof Truss（AT = Axial Force of Steel Truss） → Column Below → Foundation
+→ Column（A = Axial） → Foundation
+```
+
+### 關鍵符號
+
+| 符號 | 意義 |
+|------|------|
+| M | By Bending（彎矩傳遞）|
+| A | By Axial Force（軸力傳遞）|
+| AT | By Axial Force of Steel Truss（桁架軸力）|
+
+### English（考官版）
+
+> Vertical load is transferred as follows:
+> Gravity Load → Composite Slab (M) → Steel Beam (M) → splits into two paths:
+>
+> Hanger Column (A) → Roof Truss (AT) → Column Below → Foundation
+> Column (A) → Foundation
+>
+> M = Bending, A = Axial, AT = Axial force from Steel Truss.
+
+### Law Court Q1 應用建議（Scheme 2）
+
+| 位置 | 建議 |
+|------|------|
+| Atrium（15m × 10m column-free）| 強烈建議用 Hanger Column + Roof Truss |
+| Function Framing Plan | 畫清楚 Roof Truss 位置 |
+| Load Path Diagram | 用 M / A / AT 標註 |
+| Section B-B | Highlight Hanger Column + Roof Truss + Column Free Zone |
+
+### Recommendations 建議句
+
+> "Hanger columns and roof trusses are introduced above the atrium to achieve the required column-free space while maintaining efficient load transfer and minimising embodied carbon through optimised steel tonnage."
+
+### Sustainability Link
+
+Hanger Truss + Hanger Column 系統可以減少落地柱數量，優化材料用量，同時提供更大 column-free 空間，符合 client（Law Court）對功能性同未來靈活性嘅要求。
+
+---
+
+## 📋 Scheme 2 Steel Hanger Truss 考試 checklist
 
 | Item | Must Include |
 |------|--------------|
-| Function Framing Plan | GF + Typical Floor, grid with dimensions |
-| Section B-B | Transfer truss, hanger, Vierendeel |
-| Load Path Diagram | Vertical flow chart with M/A notation |
-| Lateral Stability | Braced Core + Braced Frame, floor diaphragm |
-| Sustainability | Span-to-depth, prefabrication, minimal transfer |
-| Colour Coding | Blue=steel, Red=bracing, Yellow=transfer |
+| Atrium column-free zone | Hanger Column + Roof Truss solution |
+| Load Path Diagram | M / A / AT notation |
+| Section B-B | Highlight Hanger + Truss + Column Free |
+| Recommendations | Explain why hanger solution chosen |
+| Sustainability | Reduced columns, optimized material |
 
 ---
 
