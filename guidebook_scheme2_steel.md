@@ -275,16 +275,95 @@ Braced steel frame system 比 rigid frame 或 shear wall system 有更好 axial 
 
 ---
 
-## 📋 Scheme 2 Steel Lateral Stability 考試 checklist
+## p.68 CASE 2 - Shear Wall + Rigid Frame（鋼結構較少單獨使用）
+
+### 中文詳解
+
+圖中綠色箭咀代表風荷載（Wind），藍色代表 Shear Wall，黃色代表 Soil。
+
+| Point | Description |
+|-------|-------------|
+| Shear Wall | 主要靠 shear + bending 抵抗側向力 |
+| Rigid Frame | 靠 bending 傳遞側向力 |
+| Steel Scheme 建議 | Braced Core + Braced Frame（axial force 為主，材料效率更高）|
+
+### English（考官版）
+
+> CASE 2 – Shear Wall + Rigid Frame (Majority used in RC schemes)
+> Shear walls resist lateral load primarily by shear and bending as a cantilever. Rigid frames transfer lateral force by bending between beams and columns.
+>
+> In steel schemes, braced cores + braced frames are generally preferred due to higher efficiency in axial force resistance and better material utilisation. Shear wall only is rarely used alone in steel schemes unless there is a specific reason (e.g. very high stiffness requirement).
+
+---
+
+## p.69 Double Column + Movement Joint（如果需要 M.J.）
+
+### 中文詳解
+
+呢頁講緊如果需要 Movement Joint（MJ）嘅情況（參考 2023 Jul Q2）。
+
+#### Double Column（雙柱）
+
+| 情況 | 做法 |
+|------|------|
+| Movement Joint 需要 | 用 Double rows of columns 分開建築物為兩個獨立結構 |
+| 每個結構 | 各自有自己嘅 lateral load resisting system（bracing / core）|
+| 抵抗側向荷載 | 每個結構獨立抵抗 Wind X 同 Wind Y |
+| Foundation | 用 late cast strip（50mm c/c）減少 shrinkage effect |
+
+#### 重要概念
+
+| 情況 | 處理方式 |
+|------|----------|
+| **Large Core** | 如果 stiffness 大，風荷載主要由 core 承擔 |
+| **No core wall** | braced column frame 按本身 stiffness 比例承擔側向荷載 |
+| **Soil load / Basement** | 土壤側壓要喺 geotechnical report 討論 |
+
+### English（考官版）
+
+> Case 2 – Double Column (if Movement Joint required)
+> Double rows of columns will be used between the movement joint to separate the building into two independent structures.
+>
+> Each structure has its own lateral load resisting system. The beam-column frames on both sides of the M.J. bend together to resist lateral load. A late cast strip (50mm c/c) is provided at foundation level to reduce shrinkage effect.
+>
+> Large Core: If the core is very stiff, wind load is mainly carried by the core.
+> No core wall: The braced column framework carries lateral load in proportion to its inherent stiffness.
+> Soil / Basement: To be discussed in the geotechnical report.
+
+---
+
+## Law Court Q1 Scheme 2 應用建議
+
+| 情況 | 建議 |
+|------|------|
+| 建築物長度 > 50m | 考慮 Movement Joint + Double Column |
+| 每個結構 | Braced Core + Braced Frame 提供 lateral stability |
+| Function Framing Plan | 清楚畫出 M.J. 位置同 Double Column |
+
+### Recommendations 建議句
+
+> "A movement joint with double columns is proposed to divide the building into two independent structures. Each structure is provided with its own braced core and braced frame system to ensure independent lateral stability. A late cast strip is provided at foundation level to minimise shrinkage effects."
+
+### Sustainability Link（Distinction 加分）
+
+使用 Movement Joint + Double Column 雖然會增加少少柱數，但可以：
+- 減少單一結構嘅整體 stiffness → 可能減少材料用量
+- 方便未來維修、擴建或拆除（circular economy）
+- 降低 shrinkage cracking 風險，減少長期維修成本
+
+---
+
+## 📋 Scheme 2 Steel Lateral Stability + Movement Joint 考試 checklist
 
 | Item | Must Include |
 |------|--------------|
-| System choice | Braced Frame + Braced Core（首選）|
+| Lateral Load System | Braced Core + Braced Frame（首選）|
 | Load Path | External Cladding → Floor Diaphragm → Braced Bays → Foundation |
 | Notation | Axial Tension / Compression |
-| Foundation | Strip footing under braced bays |
-| Movement Joint | 兩個結構各自獨立 Braced System |
-| Sustainability | Axial force efficiency + prefabrication |
+| Movement Joint | Double Column + 各自獨立 Braced System |
+| Foundation | Late cast strip 50mm c/c |
+| Recommendations | Explain MJ + Double Column choice |
+| Sustainability | Reduced stiffness + circular economy |
 
 ---
 
