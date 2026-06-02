@@ -367,4 +367,95 @@ Braced steel frame system 比 rigid frame 或 shear wall system 有更好 axial 
 
 ---
 
-*GUIDEBOOK p.59-70 — Function Framing + Load Transfer & Stability (Steel)*
+## p.71 D. Basement Scheme and Progressive Collapse
+
+### 中文詳解
+
+(如果時間唔夠，可以同 Scheme 1 寫一樣，唔使再詳細分別。)
+
+#### Case 1: (Perm) RC Screen Wall + (Temp) Pile Wall & Shoring
+
+最常用嘅 basement 方案：
+
+| 結構 | 類型 | 說明 |
+|------|------|------|
+| RC Screen Wall | Permanent | 鋼筋混凝土連續牆 |
+| Basement Slab | Permanent | — |
+| Pile Wall | Temporary | 樁牆 |
+| Shoring | Temporary | 支撐系統 |
+
+#### Construction Method
+
+| 方法 | 適用情況 | 做法 |
+|------|----------|------|
+| **Open Cut** | Rural Area / Outskirts | 適合市郊，經濟；soil at stable angle (1:2) |
+| **Sheet piling + ELS** | Town / City Center | 適合市中心；space limited |
+
+**Open Cut Sequence:**
+1. Open cut excavation
+2. RC screen wall + basement slab cast in-situ
+3. Retaining wall cantilever (temporary)
+4. Ground floor slab completed → props retaining wall
+5. Backfill
+
+**Sheet piling + ELS Sequence:**
+1. Install sheet piling wall + shoring system
+2. Excavate to final depth
+3. Cast RC screen wall + basement (floor by floor)
+4. Ground floor slab reaches sufficient strength
+5. De-prop (remove shoring)
+
+### English（考官版 — 可直接抄）
+
+> D. Basement Scheme and Progressive Collapse
+> (If time is limited, this section can be the same as Scheme 1.)
+>
+> Case 1: (Permanent) RC Screen Wall + (Temporary) Pile Wall & Shoring
+>
+> **3. Open cut method (Rural Area / Outskirts of a city)**
+> As the site is located at the outskirts of a main city, open cut method can be used for basement excavation in an economic way.
+> RC screen wall and basement slabs are casted in-situ in an open cut excavation with soil at a stable angle (1:2) and then backfilled. The retaining wall cantilevers in the temporary case. Once the ground floor slab is fully installed, this props the retaining wall. The surrounding ground may not be backfilled until this has occurred.
+>
+> **4. Sheet piling & ELS (Town / City Center)**
+> As the site is located at a city center, sheet piling wall and shoring system shall be installed until the final excavation levels are reached. The RC screen wall and basement are casted in-situ (floor by floor) afterwards.
+> The retaining wall is cantilevered in the temporary case. Once the ground floor slab is fully installed and reached sufficient strength, this props the retaining wall. The shoring cannot be de-propped until this has occurred.
+
+### Law Court Q1 應用建議
+
+Law Court 位於 city centre，強烈建議用 **Sheet piling + ELS** 方案。
+
+**Scheme Description 要包含：**
+- Permanent：RC Screen Wall + Basement Slab
+- Temporary：Sheet pile wall + shoring system
+- Ground floor slab must reach sufficient strength before de-prop
+
+**如果時間唔夠：**
+> "Basement scheme and progressive collapse consideration is the same as Scheme 1."
+
+### Sustainability Link（Distinction 加分）
+
+使用 sheet piling + ELS 雖然係臨時措施，但可以有效控制市中心嘅 vibration 同 noise，對周邊環境影響較小，同時確保 basement 施工安全，減少 long-term maintenance risk。
+
+---
+
+## 📋 Scheme 2 Steel 完整考試 checklist
+
+| Section | Item | Must Include |
+|---------|------|--------------|
+| Function Framing | Grid + dimensions | 9m×9m, 7.5m |
+| Function Framing | Braced Core | X-bracing or chevron, red/blue |
+| Function Framing | Section B-B | Transfer truss, hanger, Vierendeel |
+| Function Framing | Colour coding | Blue=steel, Red=bracing, Yellow=transfer |
+| Load Path | Vertical | Composite Slab → SB2 → SB1 → Column → Foundation |
+| Load Path | Notation | M (bending), A (axial), AT (truss axial) |
+| Lateral Load | System | Braced Core + Braced Frame |
+| Lateral Load | Path | Cladding → Floor Diaphragm → Braced Bays → Foundation |
+| Movement Joint | Double Column | Each structure independent |
+| Movement Joint | Foundation | Late cast strip 50mm c/c |
+| Basement | City centre | Sheet piling + ELS |
+| Basement | Sequence | Ground floor slab → de-prop |
+| Sustainability | | Span-to-depth, prefabrication, minimal transfer |
+
+---
+
+*GUIDEBOOK p.59-71 — Scheme 2 Steel Complete Notes*
