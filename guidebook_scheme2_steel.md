@@ -181,15 +181,110 @@ Hanger Truss + Hanger Column 系統可以減少落地柱數量，優化材料用
 
 ---
 
-## 📋 Scheme 2 Steel Hanger Truss 考試 checklist
+## p.66-67 3. LATERAL LOAD（側向荷載）
+
+### 中文詳解
+
+呢一頁講緊 Steel Scheme 嘅側向穩定系統（Lateral Stability），必須清楚講明用邊種 system，並用 Load Path Diagram 輔助說明。
+
+#### General Description
+Lateral stability is provided by the braced frame and steel column framework / rigid steel column framework / braced core，一直傳到 foundation。
+
+#### 1. External Cladding
+外牆（cladding）嘅側向荷載，由垂直跨喺相鄰樓板之間嘅牆板（spanning vertically between adjacent floor plates）抵抗。
+
+#### 2. Floor Rigid Diaphragm（樓板剛性隔板）
+每層樓板（beam-slab system / plan steel cross bracing）都會將側向荷載傳遞去 braced steel bays 同 braced core，再向下傳。
+
+#### 3. Vertical Element（垂直構件）
+
+| System | Description | 適用 |
+|--------|-------------|------|
+| **Rigid Frame（剛架）**| Beam-slab rigid frames 靠 bending 將側向力傳到 foundation | 少用（材料多）|
+| **Core Wall（核心剪力牆）**| Core wall 靠 shear + bending（cantilever）將水平力傳到 foundation | 鋼結構少單獨用 |
+| **Braced Frame（斜撐架）**| 垂直 braced bays 靠 axial tension + compression 傳遞側向力 | **Steel Scheme 首選** |
+
+#### 4. Foundation
+- **Deep Foundation：** Pile caps + piles
+- **Shallow Foundation：** Reinforced concrete strip footings under braced bays / core walls
+
+### English（考官版 — 可直接抄）
+
+> **3. LATERAL LOAD (Braced Frame / Rigid Frame / Core Wall)**
+>
+> Lateral stability is provided by the braced frame and steel column framework / rigid steel column framework / braced core, down to the foundation.
+>
+> **1. External Cladding**
+> Lateral loads from external cladding shall be resisted by spanning vertically between adjacent floor plates.
+>
+> **2. Floor Rigid Diaphragm**
+> At each floor, the beam-slab system / plan steel cross bracing transfers lateral loads to braced steel bays and provides a horizontal diaphragm, which transfers lateral load to the braced bays / braced core.
+>
+> **3. Vertical Element**
+>
+> *(Rigid Frame)* Beam-slab rigid frames transfer lateral force to foundation by bending.
+>
+> *(Core Wall)* Core wall transfers horizontal force by shear and bending as a cantilever.
+>
+> *(Braced Frame)* The vertical braced frame transfers lateral force by axial tension and compression. Reinforced concrete strip footings under each braced bay resist sliding and overturning forces.
+>
+> **4. Foundation**
+> - Deep: Pile caps + piles
+> - Shallow: Reinforced concrete strip footings under braced bays / core walls
+
+---
+
+## p.67 CASE 2 - Shear Wall + Rigid Frame（鋼結構較少用）
+
+### 中文詳解
+
+圖中綠色箭咀代表 Wind，藍色代表 Shear Wall，黃色代表 Soil。
+
+| Point | Description |
+|-------|-------------|
+| Shear Wall | 主要靠 shear + bending 抵抗側向力 |
+| Steel Scheme 建議 | Braced Core + Braced Frame（axial force 為主，材料效率高）|
+
+### English（考官版）
+
+> CASE 2 – Shear Wall + Rigid Frame (Majority used in RC schemes)
+> Shear walls resist lateral load primarily by shear and bending. In steel schemes, braced cores + braced frames are generally preferred due to higher efficiency in axial force resistance and better material utilisation.
+
+---
+
+## Law Court Q1 Scheme 2 建議（Steel Composite）
+
+| 推薦 | Avoid |
+|------|-------|
+| Braced Core + Braced Frame（最有效 + 最少材料）| 單獨用 Rigid Frame 或 Shear Wall Only |
+
+### Lateral Load Path 要畫清楚
+
+```
+External Cladding → Floor Diaphragm → Braced Bays → Foundation
+                        ↓
+              標明 Axial Tension / Compression
+```
+
+### Movement Joint 處理
+兩個獨立結構各自用自己嘅 Braced Core / Braced Frame
+
+### Sustainability Link（Distinction 加分）
+
+Braced steel frame system 比 rigid frame 或 shear wall system 有更好 axial force efficiency，可以減少鋼材用量，同埋更容易 prefabrication，降低 embodied carbon 同 site waste。
+
+---
+
+## 📋 Scheme 2 Steel Lateral Stability 考試 checklist
 
 | Item | Must Include |
 |------|--------------|
-| Atrium column-free zone | Hanger Column + Roof Truss solution |
-| Load Path Diagram | M / A / AT notation |
-| Section B-B | Highlight Hanger + Truss + Column Free |
-| Recommendations | Explain why hanger solution chosen |
-| Sustainability | Reduced columns, optimized material |
+| System choice | Braced Frame + Braced Core（首選）|
+| Load Path | External Cladding → Floor Diaphragm → Braced Bays → Foundation |
+| Notation | Axial Tension / Compression |
+| Foundation | Strip footing under braced bays |
+| Movement Joint | 兩個結構各自獨立 Braced System |
+| Sustainability | Axial force efficiency + prefabrication |
 
 ---
 
