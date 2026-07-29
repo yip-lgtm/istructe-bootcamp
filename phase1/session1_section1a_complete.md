@@ -6,6 +6,24 @@
 
 ---
 
+## Drawings Reference / 圖則索引
+
+All technical sketches generated for this session are stored in:
+
+**Local path:** `phase1/drawings/`  
+**GitHub:** `phase1/drawings/README.md`
+
+| File | Description (EN) | 說明 (中文) | Related Section |
+|------|------------------|-------------|-----------------|
+| `q58M0.jpg` | Scheme 1 overall framing + load path | 方案 1 整體構架 + 荷載路徑 | Scheme 1 |
+| `BY3fp.jpg` | Scheme 2 hybrid framing | 方案 2 混合構架 | Scheme 2 |
+| `dF91N.jpg` | Scheme 1 detailed vertical + lateral load path | 方案 1 詳細垂直與側向荷載路徑 | Scheme 1 – Load Path |
+| `pYwh9.jpg` | Scheme 1 foundation detail | 方案 1 基礎細節 | Scheme 1 – Foundation |
+| `JlkpN.jpg` | Scheme 2 load path + foundation | 方案 2 荷載路徑 + 基礎 | Scheme 2 |
+| `Vj6ve.jpg` | Foundation Scheme cross-section (ground profile + piles) | 基礎方案剖面（地質分層 + 嵌岩樁） | Foundation Scheme |
+
+---
+
 ## 1. INITIAL THOUGHT & DESIGN APPRAISAL
 **初步構思與設計評估**
 
@@ -127,6 +145,11 @@ In the following design appraisal, two schemes have been prepared. The solutions
 ## 5. SCHEME 1 – OPTIMISED STEEL-LED
 **方案 1 – 優化鋼結構為主**
 
+**Related Drawings / 相關圖則：**  
+- Overall framing + load path → `drawings/q58M0.jpg`  
+- Detailed vertical + lateral load path → `drawings/dF91N.jpg`  
+- Foundation detail → `drawings/pYwh9.jpg`
+
 ### A. Scheme Description
 **方案描述**
 
@@ -182,6 +205,10 @@ End-bearing piles to sandstone under crane columns; pads or short piles elsewher
 ## 6. SCHEME 2 – HYBRID
 **方案 2 – 混合方案**
 
+**Related Drawings / 相關圖則：**  
+- Hybrid framing → `drawings/BY3fp.jpg`  
+- Load path + foundation → `drawings/JlkpN.jpg`
+
 ### A. Scheme Description
 **方案描述**
 
@@ -234,6 +261,9 @@ Similar pile solution, but larger pile caps under the heavy separating wall.
 ## 7. FOUNDATION SCHEME
 **基礎方案**
 
+**Related Drawing / 相關圖則：**  
+- Foundation Scheme cross-section → `drawings/Vj6ve.jpg`
+
 - Heavy crane columns: End-bearing piles socketed into sandstone (allowable 3000 kN/m²)  
   起重機重柱：嵌岩樁至砂岩（容許承載力 3000 kN/m²）
 
@@ -285,4 +315,5 @@ Although Scheme 1 may have a slightly higher initial A1-A3 embodied carbon, its 
 
 **End of Section 1(a)**  
 **文件整理完成 – StructClaw Mentor Phase 1**  
-**Date: 2026-07-29**
+**Date: 2026-07-29**  
+**Drawings linked: 2026-07-29**
