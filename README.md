@@ -22,14 +22,23 @@ Timed 7-hour mocks + weakness targeting.
 ---
 
 ## Current Status
-**Phase 1 started: 2026-07-28**
+**Phase 1 started: 2026-07-28**  
+**Session 1 (Section 1(a)) completed: 2026-07-29** (January 2026 Q1 Manufacturing Building)
 
 Focus: GUIDEBOOK Section 1(a) – Two Distinct and Viable Schemes
 
 ## Folder Structure
 - `phase1/` – Foundation work, notes, sketches references
 - `progress/` – Session logs & scores
+- `integrations/openmaic/` – OpenMAIC (AI Interactive Classroom) integration & IStructE prompts
 - `resources/` – Links / extracted notes from Guidebook & Mastery
+
+## OpenMAIC Integration
+本 repo 已整合 [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 作為輔助學習工具。
+
+- 詳見：`integrations/openmaic/README.md`
+- 現成提示詞：`integrations/openmaic/prompts/`
+- 可把 Session 答案直接丟進 OpenMAIC，生成 AI 教師互動課堂進行複習
 
 ## Rules
 Every session must include:

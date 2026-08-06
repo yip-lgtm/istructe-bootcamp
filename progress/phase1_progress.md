@@ -1,7 +1,7 @@
 # Phase 1 Progress Tracker
 
 **Start Date:** 2026-07-28  
-**Last Updated:** 2026-07-30
+**Last Updated:** 2026-08-06
 
 ## Week 1 Status
 
@@ -37,14 +37,23 @@
 | 2026-07-28 | 1       | Restart + Initial Thoughts                 | -       | Repo cleaned, Phase 1 started              |
 | 2026-07-29 | 1       | Full Section 1(a) on Jan 2026 Q1           | Target 9.5+ | Complete answer + 6 drawings generated & linked |
 | 2026-07-30 | -       | Progress update                            | -       | Drawings linked into main answer file      |
+| 2026-08-06 | -       | OpenMAIC integration                       | -       | Added integrations/openmaic/ with IStructE prompts |
 
 ## Key Files
 
 - Complete Answer: `phase1/session1_section1a_complete.md`
 - Drawings Index: `phase1/drawings/README.md`
 - Drawings: `phase1/drawings/*.jpg` (local artifacts)
+- **OpenMAIC Integration:** `integrations/openmaic/`
+
+## Tools Integration
+
+- [x] OpenMAIC (AI Multi-Agent Interactive Classroom) integrated
+  - Prompts ready for Session 1 review
+  - General IStructE prompt template available
+  - See `integrations/openmaic/README.md`
 
 ## Next Recommended Action
 
-Proceed to **Session 2**:  
-Focus on deeper Load Transfer, Stability calculations, Feasibility Checking & Sizing for Scheme 1 (recommended scheme), still within Foundation Mastery (no full past paper yet).
+1. Use OpenMAIC + `prompts/session1_section1a.md` 複習 Session 1
+2. Proceed to **Session 2**: deeper Load Transfer, Stability, Feasibility Checking & Sizing for Scheme 1
