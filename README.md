@@ -16,6 +16,8 @@ Thorough mastery of **GUIDEBOOK + Mastery Vol 1** (no past papers yet).
 ### Phase 2: Application (Month 6–11)
 Full past papers every 10–14 days (latest official IStructE resources).
 
+- See [Past Paper Index (2007–2026)](resources/past-paper-index.md) for suggested order and examiner focus points.
+
 ### Phase 3: Distinction Push (Month 12–15)
 Timed 7-hour mocks + weakness targeting.
 
@@ -31,7 +33,7 @@ Focus: GUIDEBOOK Section 1(a) – Two Distinct and Viable Schemes
 - `phase1/` – Foundation work, notes, sketches references
 - `progress/` – Session logs & scores
 - `integrations/openmaic/` – OpenMAIC (AI Interactive Classroom) integration & IStructE prompts
-- `resources/` – Links / extracted notes from Guidebook & Mastery
+- `resources/` – Original study aids (e.g. Past Paper Index). No copyrighted past-paper content.
 
 ## OpenMAIC Integration
 本 repo 已整合 [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 作為輔助學習工具。
